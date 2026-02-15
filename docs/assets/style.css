@@ -43,6 +43,13 @@ body {
     text-decoration:none; 
     text-shadow:0 0 5px #0ff,0 0 10px #0ff; 
 }
+/* دکمه منو موبایل */
+.nav-toggle {
+  display: none;
+  font-size: 2rem;
+  color: #0ff;
+  cursor: pointer;
+}
 .nav-links { 
     display:flex; 
     gap:20px; 
