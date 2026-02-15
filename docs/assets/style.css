@@ -51,7 +51,7 @@ body {
   cursor: pointer;
 }
 
-/* Media Query موبایل */
+/* موبایل */
 @media(max-width:768px){
   .nav-toggle { display: block; }
 
@@ -72,18 +72,12 @@ body {
     margin: 10px 0; 
   }
 
-  /* وقتی باز شد */
   .nav-links.active { display: flex; }
 
   /* فاصله header برای بنر */
   header { padding-top: 70px; }
 }
 
-.nav-links { 
-    display:flex; 
-    gap:20px; 
-    list-style:none; 
-}
 .nav-links li a {
     text-decoration:none;
     color:#0ff;
