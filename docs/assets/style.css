@@ -79,16 +79,17 @@ header {
     z-index:2;
 }
 
-/* متن زیر لوگو */
+/* متن بنر */
 .unlock-text {
-    font-family:'Vazirmatn',sans-serif;
-    font-size:2rem;
-    color:#0ff;
-    text-align:center;
-    margin:15px 0 5px 0;
-    text-shadow:0 0 5px rgba(0,255,255,0.5),0 0 10px rgba(0,255,255,0.7);
-    animation: neon 1.5s infinite alternate;
+  font-family: 'Vazirmatn', sans-serif;
+  font-size: 2rem;
+  color: #0ff;
+  text-align: center;
+  text-shadow: 0 0 5px rgba(0,255,255,0.5),0 0 15px rgba(0,255,255,0.7);
+  animation: neon 1.5s infinite alternate;
+  margin: 0;
 }
+
 .subtitle {
   font-size: 1rem;
   color: #0ff;
