@@ -65,19 +65,20 @@ header {
     margin-bottom:60px; /* فاصله لوگو */
     border-radius:10px;
 }
+/* Header Banner Wrapper */
 .banner-wrapper {
-  position: relative;
   width: 100%;
-  max-height: 250px;
+  min-height: 300px; /* ارتفاع بنر */
+  background: url('../images/banner.png') center center/cover no-repeat;
   display: flex;
-  flex-direction: column;
-  align-items: center;       /* وسط افقی */
-  justify-content: center;   /* وسط عمودی */
-  background: url('images/banner.png') center center/cover no-repeat;
+  flex-direction: column; /* لوگو بالای متن */
+  align-items: center;    /* وسط افقی */
+  justify-content: center; /* وسط عمودی */
   border-radius: 10px;
   box-shadow: 0 0 25px #0ff;
-  margin-top: 60px; /* فاصله از navbar */
+  padding: 20px;
 }
+
 /* لوگو */
 .logo {
   width: 120px;
@@ -87,7 +88,6 @@ header {
   box-shadow: 0 0 25px #0ff;
   background: #111;
   margin-bottom: 15px;
-  z-index: 2;
 }
 
 /* متن بنر */
@@ -178,11 +178,15 @@ footer {
 }
 
 /* Neon Animation */
-@keyframes neon { 0%{ text-shadow:0 0 5px #0ff,0 0 10px #0ff;} 50%{ text-shadow:0 0 10px #0ff,0 0 20px #0ff;} 100%{ text-shadow:0 0 5px #0ff,0 0 10px #0ff;} }
+@keyframes neon {
+  0%{ text-shadow:0 0 5px #0ff,0 0 10px #0ff;}
+  50%{ text-shadow:0 0 10px #0ff,0 0 20px #0ff;}
+  100%{ text-shadow:0 0 5px #0ff,0 0 10px #0ff;}
+}
 
 /* Responsive */
 @media(max-width:768px){
-  .banner-wrapper { max-height:200px; }
+  .banner-wrapper { min-height:220px; }
   .logo { width:100px; height:100px; }
   .unlock-text { font-size:1.5rem; }
   .subtitle { font-size:0.9rem; }
