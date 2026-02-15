@@ -2,7 +2,7 @@
 ### e.g., “Professional LTE Modem Unlocking Tool”
 
 <div align="center">
-<img src="images/logo.png" width="140" alt="Universal Modem Unlocker Logo"/>
+<img src="images/logo.png" width="340" alt="Universal Modem Unlocker Logo"/>
 </div>
 
 ![Platform](https://img.shields.io/badge/Platform-Windows%207%2F8%2F10%2F11-blue)
