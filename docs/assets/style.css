@@ -50,6 +50,35 @@ body {
   color: #0ff;
   cursor: pointer;
 }
+
+/* Media Query موبایل */
+@media(max-width:768px){
+  .nav-toggle { display: block; }
+
+  .nav-links {
+    display: none;      /* پیش‌فرض مخفی */
+    flex-direction: column;
+    width: 100%;
+    background: rgba(0,0,0,0.95);
+    position: absolute;
+    top: 60px;          /* زیر Navbar */
+    left: 0;
+    z-index: 998;
+    padding: 10px 0;
+  }
+
+  .nav-links li { 
+    text-align: center; 
+    margin: 10px 0; 
+  }
+
+  /* وقتی باز شد */
+  .nav-links.active { display: flex; }
+
+  /* فاصله header برای بنر */
+  header { padding-top: 70px; }
+}
+
 .nav-links { 
     display:flex; 
     gap:20px; 
