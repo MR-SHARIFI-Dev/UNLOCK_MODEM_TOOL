@@ -107,22 +107,23 @@ var swiper = new Swiper(".mySwiper", {
     autoplay: { delay: 4000 },
 });
 
-fetch('https://yourserver.com/api/stats')
-.then(res => res.json())
-.then(data => {
+fetch('data/stats.json')
+  .then(res => res.json())
+  .then(data => {
     new Chart(document.getElementById('unlockChart'), {
-        type: 'bar',
-        data: {
-            labels: data.models,
-            datasets: [{
-                label: 'Unlocks',
-                data: data.counts,
-                backgroundColor: 'rgba(54, 162, 235, 0.6)'
-            }]
-        },
-        options: { responsive:true }
+      type: 'bar',
+      data: {
+        labels: data.models,
+        datasets: [{
+          label: 'Unlocks',
+          data: data.counts,
+          backgroundColor: 'rgba(54, 162, 235, 0.6)'
+        }]
+      },
+      options: { responsive:true }
     });
-});
+  });
+
 </script>
 </body>
 </html>
