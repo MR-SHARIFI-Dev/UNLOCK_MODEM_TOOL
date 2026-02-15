@@ -1,14 +1,30 @@
 {
   "modems": [
-    { "brand": "Huawei", "model": "E5577", "method": "Software Unlock", "time": "1-2 min", "active": true, "color": "#f0f" },
-    { "brand": "Huawei", "model": "B612", "method": "Network Unlock", "time": "2-3 min", "active": true, "color": "#f0f" },
+    { "brand": "ZLT", "model": "kj33", "method": "Software Unlock + super admin", "time": "1-2 min", "active": true, "color": "#f0f" },
+    { "brand": "ZLT", "model": "X10", "method": "Software Unlock + super admin", "time": "1-2 min", "active": true, "color": "#f0f" },
+    { "brand": "ZLT", "model": "X11", "method": "Software Unlock + super admin", "time": "1-2 min", "active": true, "color": "#f0f" },
+    { "brand": "ZLT", "model": "X20", "method": "Software Unlock + super admin", "time": "1-2 min", "active": true, "color": "#f0f" },
+    { "brand": "ZLT", "model": "X21", "method": "Software Unlock + super admin", "time": "1-2 min", "active": true, "color": "#f0f" },
+    { "brand": "ZLT", "model": "X28", "method": "Software Unlock + super admin", "time": "1-2 min", "active": true, "color": "#f0f" },
+    { "brand": "ZLT", "model": "X28 PRO", "method": "Software Unlock", "time": "1-2 min", "active": true, "color": "#f0f" },
     { "brand": "Irancell", "model": "TF-i60", "method": "Fast Unlock", "time": "1 min", "active": true, "color": "#ff0" },
+    { "brand": "Huawei", "model": "B612", "method": "Network Unlock", "time": "2-3 min", "active": true, "color": "#ff0" },
     { "brand": "ZTE", "model": "MF90", "method": "Network Unlock", "time": "2 min", "active": true, "color": "#0ff" }
   ],
   "stats": {
-    "E5577": 12482,
-    "B612": 7560,
-    "TF-i60": 4321,
-    "MF90": 2150
+    "kj33": 110,
+    "X10": 220,
+    "X11": 170,
+    "X20": 110,
+    "X21": 50,
+    "X28": 5,
+    "X28 PRO": 2,
+    "B612": 10,
+    "TF-i60": 20,
+    "MF90": 5
+
+
+
+    
   }
 }
