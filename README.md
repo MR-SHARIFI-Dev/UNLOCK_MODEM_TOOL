@@ -1,5 +1,9 @@
-ما در حال توسعه یک اسکریپت قدرتمند برای آنلاک کردن مودم‌ها از تمامی برندها هستیم. هدف ما این است که شما بتوانید بدون محدودیت از مودم‌هایتان استفاده کنید، چه ایرانسل، چه هواوی یا هر برند دیگری.
+🔓 Universal Modem Unlocker
+Professional Carrier Unlocking Solution
+🇬🇧 English
+Overview
 
-اگر مودم خاصی دارید که هنوز در پروژه‌ ما قرار ندارد، می‌توانید به ما کمک کنید تا آن را اضافه کنیم و در پیشرفت پروژه مشارکت داشته باشید.
+Universal Modem Unlocker is a professional Windows executable tool designed to remove carrier locks from supported LTE modems.
+Download
 
-⭐️ همراه ما باشید و به جمع توسعه‌دهندگان بپیوندید! ⭐️
+Visit the Releases section to download the latest version.
