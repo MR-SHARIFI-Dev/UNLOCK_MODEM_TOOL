@@ -12,12 +12,12 @@ body {
 }
 
 /* Container */
-.container { width:90%; max-width:1200px; margin:20px auto; position:relative; z-index:2; }
+.container { width:90%; max-width:1200px; margin:0 auto; padding:20px; }
 
 /* Navbar */
 .navbar {
     width:100%;
-    background: rgba(0,0,0,0.85);
+    background: rgba(0,0,0,0.9);
     position:fixed;
     top:0;
     left:0;
@@ -43,34 +43,56 @@ body {
 }
 
 /* Header + Banner */
-header { position:relative; margin-top:60px; }
-.banner-container { position:relative; width:100%; }
-.banner { width:100%; max-height:250px; object-fit:cover; border-bottom:3px solid #0ff; box-shadow:0 0 20px #0ff; display:block; }
-
-/* لوگو روی بنر */
-.logo-overlay {
-  position:relative;
-  top:-60px; /* کمی روی بنر */
-  transform:translate(-50%, -50%);
-  text-align:center;
-  z-index:2;
+header {
+    position:relative;
+    padding-top:60px; /* ارتفاع navbar */
 }
-.logo { width:120px; height:120px; border-radius:50%; border:3px solid #0ff; box-shadow:0 0 25px #0ff; display:block; margin:0 auto; background:#111; }
+.banner-container {
+    position:relative;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.banner {
+    width:100%;
+    max-height:250px;
+    object-fit:cover;
+    border-bottom:3px solid #0ff;
+    box-shadow:0 0 25px #0ff;
+    display:block;
+    margin-bottom:60px; /* فاصله لوگو */
+    border-radius:10px;
+}
 
-/* متن بنر */
+/* لوگو */
+.logo {
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    border:3px solid #0ff;
+    box-shadow:0 0 25px #0ff;
+    margin-top:-60px; /* روی بنر */
+    background:#111;
+    z-index:2;
+}
+
+/* متن زیر لوگو */
 .unlock-text {
     font-family:'Vazirmatn',sans-serif;
     font-size:2rem;
     color:#0ff;
-    text-shadow:0 0 5px rgba(0,255,255,0.5),0 0 15px rgba(0,255,255,0.7);
+    text-align:center;
+    margin:15px 0 5px 0;
+    text-shadow:0 0 5px rgba(0,255,255,0.5),0 0 10px rgba(0,255,255,0.7);
     animation: neon 1.5s infinite alternate;
-    margin:10px 0 0 0;
 }
 .subtitle {
     font-size:1rem;
     color:#0ff;
+    text-align:center;
+    margin-bottom:30px;
     text-shadow:0 0 5px rgba(0,255,255,0.5),0 0 10px rgba(0,255,255,0.3);
-    margin:5px 0 20px 0;
 }
 
 /* Features */
@@ -86,7 +108,7 @@ header { position:relative; margin-top:60px; }
 .swiper-slide img { width:100%; border-radius:10px; box-shadow:0 0 20px #0ff; transition:0.5s; }
 .swiper-slide img:hover { transform:scale(1.05); box-shadow:0 0 35px #0ff; }
 
-/* Buttons هکری */
+/* Buttons */
 .buttons { display:flex; flex-wrap:wrap; gap:10px; justify-content:center; }
 .btn {
     padding:12px 20px;
@@ -100,7 +122,7 @@ header { position:relative; margin-top:60px; }
     border:2px solid #0ff;
     box-shadow:0 0 15px #0ff;
 }
-.btn:hover { background:#111; transform:scale(1.05); box-shadow:0 0 25px #0ff; color:#0ff; }
+.btn:hover { transform:scale(1.05); box-shadow:0 0 25px #0ff; }
 
 /* Modem Table */
 .modem-table {
@@ -112,7 +134,6 @@ header { position:relative; margin-top:60px; }
     box-shadow:0 0 25px #0ff;
     background: rgba(0,0,0,0.6);
     color:#eee;
-    font-family: 'Roboto', sans-serif;
 }
 .modem-table th, .modem-table td {
     padding:12px 15px;
@@ -122,13 +143,9 @@ header { position:relative; margin-top:60px; }
 }
 .modem-table th { background: rgba(0,0,0,0.7); color:#0ff; text-shadow:0 0 3px #0ff; }
 .modem-table td { background: rgba(0,0,0,0.3); border:none; text-align:center; text-shadow:0 0 2px #0ff; }
-
-/* برندها فقط متن رنگی */
 .modem-table td.brand-huawei { color:#f0f; font-weight:bold; }
 .modem-table td.brand-irancell { color:#ff0; font-weight:bold; }
 .modem-table td.brand-zte { color:#0ff; font-weight:bold; }
-
-/* ردیف‌ها */
 .modem-table tr:nth-child(even) td { background: rgba(0,255,255,0.05); }
 .modem-table tr:hover td { transform:scale(1.02); box-shadow:0 0 10px #0ff; transition:0.3s; }
 
@@ -152,7 +169,7 @@ footer {
 /* Responsive */
 @media(max-width:768px){
 .banner { max-height:200px; }
-.logo { width:100px; height:100px; }
+.logo { width:100px; height:100px; margin-top:-50px; }
 .unlock-text { font-size:1.5rem; }
 .subtitle { font-size:0.9rem; }
 .feature-list { flex-direction:column; }
