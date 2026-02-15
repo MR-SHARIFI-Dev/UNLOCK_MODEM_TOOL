@@ -56,8 +56,8 @@ requestAnimationFrame(drawCodeRain);
 drawCodeRain();
 window.addEventListener('resize',()=>{canvas.width=window.innerWidth;canvas.height=window.innerHeight;});
 
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+
+ src="https://cdn.jsdelivr.net/npm/chart.js">
 fetch('../data/stats.json')
 .then(res => res.json())
 .then(data => {
@@ -114,6 +114,6 @@ fetch('../data/stats.json')
 
 })
 .catch(err => console.error('Error loading stats.json:', err));
-</script>
+
 
 
