@@ -25,8 +25,8 @@ Visit the Releases section to download the latest version.
 ## Global Unlock Statistics
 | Metric | Value |
 |--------|--------|
-| Total Unlocks | 0 |
-| Success Rate | — |
+| 🌍 Total Unlocks | 0 |
+| ✅ Success Rate | — |
 
 More details: `/docs/statistics.md`
 
@@ -36,9 +36,9 @@ Full documentation available in `/docs`
 ## Commercial Model
 | Version | Access |
 |----------|---------|
-| Community | Basic Models |
-| Pro | Extended Support |
-| Enterprise | Bulk Unlock |
+| 🟢 Community | Basic Models |
+| 🔵 Pro | Extended Support |
+| 🔴 Enterprise | Bulk Unlock |
 
 ## Security
 Digitally signed executable.
@@ -59,17 +59,17 @@ Universal Modem Unlocker یک ابزار حرفه‌ای ویندوزی برای
 ## آمار آنلاک
 | شاخص | مقدار |
 |--------|--------|
-| مجموع آنلاک | 0 |
-| نرخ موفقیت | — |
+| 🌍 مجموع آنلاک | 0 |
+| ✅ نرخ موفقیت | — |
 
 جزئیات کامل: `/docs/statistics.md`
 
 ## مدل تجاری
 | نسخه | دسترسی |
 |--------|---------|
-| Community | مدل‌های پایه |
-| Pro | پشتیبانی گسترده |
-| Enterprise | آنلاک انبوه |
+| 🟢 Community | مدل‌های پایه |
+| 🔵 Pro | پشتیبانی گسترده |
+| 🔴 Enterprise | آنلاک انبوه |
 
 ## امنیت
 تمام نسخه‌های رسمی دارای امضای دیجیتال هستند.
