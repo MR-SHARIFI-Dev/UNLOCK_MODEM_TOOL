@@ -3,46 +3,17 @@
 
 body { font-family:'Roboto',sans-serif; margin:0; padding:0; background:#0d0d0d; color:#eee; overflow-x:hidden; }
 .container { width:90%; max-width:1200px; margin:40px auto; z-index:2; position:relative; }
-/* تمام متن‌ها و عنوان‌ها */
-h1, h2, h3, p, li {
-  text-shadow: 0 0 5px rgba(0,255,255,0.5), 0 0 10px rgba(0,255,255,0.3);
-}
-
-/* جدول مودم‌ها */
-.modem-table {
-  width:100%;
-  border-collapse: collapse;
-  background: rgba(0,0,0,0.6); /* نیمه شفاف */
-  box-shadow:0 0 25px #0ff;
-  color:#0ff;
-  font-family: 'Roboto', sans-serif;
-}
-
-/* سلول‌ها */
-.modem-table th, .modem-table td {
-  padding:12px 15px;
-  border:1px solid rgba(0,255,255,0.4);
-  text-align:center;
-  text-shadow: 0 0 3px rgba(0,255,255,0.5); /* سایه برای وضوح */
-}
-
-/* نمودار آمار */
-#unlockChart {
-  background: rgba(0,0,0,0.7); /* نیمه شفاف روی Code Rain */
-  border-radius:10px;
-  box-shadow:0 0 20px #0ff;
-}
 
 /* Canvas Code Rain */
 #codeRain { position:fixed; top:0; left:0; z-index:-2; }
 
 /* Header */
-header { text-align:center; padding:20px; position:relative; z-index:2; }
-.banner { width:100%; height:auto; object-fit:cover; border-bottom: 3px solid #0ff; box-shadow:0 0 20px #0ff;}
+header { text-align:center; position:relative; z-index:2; }
+.banner { width:100%; max-height:250px; object-fit:cover; border-bottom: 3px solid #0ff; box-shadow:0 0 20px #0ff;}
 .logo-container { margin-top:-60px; animation: glowText 2s infinite alternate; position:relative; z-index:2; }
 .logo { width:120px; border-radius:10px; border:3px solid #0ff; box-shadow: 0 0 20px #0ff; }
-.unlock-text { font-family:'Vazirmatn',sans-serif; font-size:2rem; color:#0ff; text-shadow: 0 0 5px #0ff,0 0 10px #0ff; animation: neon 1.5s infinite alternate; }
-h1,p { color:#0ff; }
+.unlock-text { font-family:'Vazirmatn',sans-serif; font-size:2rem; color:#0ff; text-shadow: 0 0 5px rgba(0,255,255,0.5),0 0 10px rgba(0,255,255,0.3); animation: neon 1.5s infinite alternate; }
+.subtitle { text-shadow: 0 0 5px rgba(0,255,255,0.5),0 0 10px rgba(0,255,255,0.3); }
 
 /* Features */
 .feature-list { display:flex; flex-wrap:wrap; justify-content:space-between; }
@@ -61,6 +32,16 @@ h1,p { color:#0ff; }
 .donate { background:linear-gradient(90deg,#f90,#ff0);} 
 .donate:hover { background:linear-gradient(90deg,#ff0,#f90); color:#000; box-shadow:0 0 25px #f90; transform:scale(1.05);}
 
+/* Modem Table */
+.modem-table { width:100%; border-collapse: collapse; background: rgba(0,0,0,0.6); box-shadow:0 0 25px #0ff; color:#0ff; font-family: 'Roboto', sans-serif;}
+.modem-table th, .modem-table td { padding:12px 15px; border:1px solid rgba(0,255,255,0.4); text-align:center; text-shadow:0 0 3px rgba(0,255,255,0.5); }
+.modem-table th { background: linear-gradient(90deg,#0ff,#00f); color:#000; }
+.modem-table tr:nth-child(even) { background: rgba(0,255,255,0.05); }
+.modem-table tr:hover { background: rgba(0,255,255,0.2); transform:scale(1.02); transition:0.3s; }
+
+/* Chart Canvas */
+#unlockChart { background: rgba(0,0,0,0.7); border-radius:10px; box-shadow:0 0 20px #0ff; }
+
 /* Links */
 ul { list-style:none; padding:0;}
 ul li a { color:#0ff; text-decoration:none;} 
@@ -72,8 +53,8 @@ ul li a:hover { text-decoration:underline;}
 
 /* Responsive */
 @media (max-width:768px){
-  .feature-list { flex-direction:column; }
-  .logo-container { margin-top:-40px; }
-  .unlock-text { font-size:1.5rem; }
-  .banner { max-height:200px; }
+.feature-list { flex-direction:column; }
+.logo-container { margin-top:-40px; }
+.unlock-text { font-size:1.5rem; }
+.banner { max-height:200px; }
 }
