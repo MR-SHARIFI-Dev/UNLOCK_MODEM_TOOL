@@ -10,6 +10,19 @@ body {
     color:#eee;
     overflow-x:hidden;
 }
+/* Navbar دسکتاپ / تبلت */
+.nav-links {
+    display: flex;          /* افقی بودن آیتم‌ها */
+    flex-direction: row;    /* کنار هم */
+    gap: 20px;              /* فاصله بین آیتم‌ها */
+    position: static;       /* حذف absolute که فقط موبایل می‌خواد */
+    background: transparent; 
+    width: auto;
+    padding: 0;
+}
+
+.nav-links li { margin: 0; }
+.nav-toggle { display: none; } /* دکمه فقط موبایل نمایش داده شود */
 
 /* Container */
 .container { 
@@ -61,7 +74,7 @@ body {
     width: 100%;
     background: rgba(0,0,0,0.95);
     position: absolute;
-    top: 60px;          /* زیر Navbar */
+    top: 60px;
     left: 0;
     z-index: 998;
     padding: 10px 0;
@@ -73,10 +86,9 @@ body {
   }
 
   .nav-links.active { display: flex; }
-
-  /* فاصله header برای بنر */
   header { padding-top: 70px; }
 }
+
 
 .nav-links li a {
     text-decoration:none;
@@ -250,19 +262,7 @@ footer {
   .subtitle { font-size:0.95rem; }
   .feature { flex:1 1 48%; }
 }
-
-@media(max-width:768px){
-   header { padding-top: 70px; } /* فضای کافی برای منو */
-  .banner { width: 100%; max-height: 180px; }
-  .logo { width:120px; height:120px; }
-  .unlock-text { font-size:1.5rem; }
-  .subtitle { font-size:0.9rem; }
-  .feature { flex:1 1 100%; margin:10px 0; }
-  .nav-links { flex-direction: column; gap:10px; }
-  .logo-text-container { margin-top:20px; }
-  .modem-table { font-size:0.8rem; }
-  .modem-table th, .modem-table td { padding:8px 5px; }
-}
+ 
 
 @media(max-width:480px){
   .banner { max-height:150px; }
