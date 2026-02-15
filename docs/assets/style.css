@@ -214,7 +214,7 @@ footer {
 
 /* Responsive */
 @media(max-width:1024px){
-  .banner { max-height:200px; }
+  .banner { max-height:180px; }
   .logo { width:150px; height:150px; }
   .unlock-text { font-size:1.8rem; }
   .subtitle { font-size:0.95rem; }
