@@ -69,7 +69,7 @@ header {
 .banner-wrapper {
   width: 100%;
   min-height: 300px; /* ارتفاع بنر */
-  background: url('../images/banner.png') center center/cover no-repeat;
+  background: url('images/banner.png') center center/cover no-repeat;
   display: flex;
   flex-direction: column; /* لوگو بالای متن */
   align-items: center;    /* وسط افقی */
