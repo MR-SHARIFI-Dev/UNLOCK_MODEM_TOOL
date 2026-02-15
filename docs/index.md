@@ -45,9 +45,9 @@ layout: default
 
 ## 📥 Download / دانلود
 ### 🇬🇧
-Download the latest release from [GitHub Releases](https://github.com/YourUsername/YourRepo/releases).  
+Download the latest release from [GitHub Releases](https://github.com/MR-SHARIFI-Dev/UNLOCK_MODEM_TOOL/releases).  
 ### 🇮🇷
-برای دریافت نسخه جدید به بخش [Releases](https://github.com/YourUsername/YourRepo/releases) مراجعه کنید.
+برای دریافت نسخه جدید به بخش [Releases](https://github.com/MR-SHARIFI-Dev/UNLOCK_MODEM_TOOL/releases) مراجعه کنید.
 
 ---
 
@@ -70,9 +70,9 @@ Download the latest release from [GitHub Releases](https://github.com/YourUserna
 ---
 
 ## 💰 Support / حمایت مالی
-- ☕ BuyMeACoffee: [Click Here](https://buymeacoffee.com/YourName)  
-- ₿ Bitcoin: `YourBTCAddress`  
-- 💎 USDT (TRC20): `YourWalletAddress`
+- ☕ BuyMeACoffee: [Click Here](soon)  
+- ₿ Bitcoin: `soon`  
+- 💎 USDT (TRC20): `soon`
 
 ---
 
@@ -84,6 +84,6 @@ Download the latest release from [GitHub Releases](https://github.com/YourUserna
 ---
 
 ## 🔗 Connect / ارتباط
-- Telegram: [@YourTelegram](https://t.me/YourTelegram)  
-- YouTube: [YourChannel](https://youtube.com/YourChannel)  
-- GitHub: [YourRepo](https://github.com/YourUsername/YourRepo)
+- Telegram: [@hirophp](https://t.me/hirophp)  
+- YouTube: [YourChannel](https://www.youtube.com/@UNLOCK_MODEM_TOOL)  
+- GitHub: [YourRepo](https://github.com/MR-SHARIFI-Dev/UNLOCK_MODEM_TOOL)
