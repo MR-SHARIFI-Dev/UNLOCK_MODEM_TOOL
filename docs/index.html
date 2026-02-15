@@ -194,13 +194,16 @@ fetch('data/stats.json')
 
 <script src="assets/script.js"></script>
 <script>
-const toggle = document.getElementById('nav-toggle');
-const navLinks = document.getElementById('nav-links');
+document.addEventListener("DOMContentLoaded", function() {
+  const toggle = document.getElementById('nav-toggle');
+  const navLinks = document.getElementById('nav-links');
 
-toggle.addEventListener('click', () => {
-  navLinks.classList.toggle('active');
+  toggle.addEventListener('click', function() {
+    navLinks.classList.toggle('active');
+  });
 });
 </script>
+
 
 </body>
   <footer>
