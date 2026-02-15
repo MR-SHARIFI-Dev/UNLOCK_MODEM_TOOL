@@ -222,7 +222,8 @@ footer {
 }
 
 @media(max-width:768px){
-  .banner { max-height:180px; }
+   header { padding-top: 70px; } /* فضای کافی برای منو */
+  .banner { width: 100%; max-height: 180px; }
   .logo { width:120px; height:120px; }
   .unlock-text { font-size:1.5rem; }
   .subtitle { font-size:0.9rem; }
