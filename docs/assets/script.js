@@ -56,7 +56,8 @@ requestAnimationFrame(drawCodeRain);
 drawCodeRain();
 window.addEventListener('resize',()=>{canvas.width=window.innerWidth;canvas.height=window.innerHeight;});
 
-
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
 fetch('../data/stats.json')
 .then(res => res.json())
 .then(data => {
@@ -79,10 +80,10 @@ fetch('../data/stats.json')
   const labels = Object.keys(data.stats);
   const values = Object.values(data.stats);
 
-  // رنگ برای هر ستون از modems (اگر کمتر از ستون‌ها بود، تکرار کن)
+  // رنگ برای هر ستون از modems (تکرار رنگ اگر کمتر از ستون‌ها)
   const backgroundColors = data.modems.map(m => m.color);
   while(backgroundColors.length < labels.length){
-    backgroundColors.push('#0ff'); // رنگ پیشفرض برای ستون اضافی
+    backgroundColors.push('#0ff'); // رنگ پیشفرض
   }
 
   const ctx = document.getElementById('unlockChart').getContext('2d');
@@ -100,7 +101,7 @@ fetch('../data/stats.json')
     },
     options:{
       responsive:true,
-      maintainAspectRatio:false,
+      maintainAspectRatio:true, // اینجا true → ارتفاع اضافی حذف شد
       plugins:{
         legend:{ labels:{ color:'#0ff', font:{size:14} } }
       },
@@ -113,4 +114,6 @@ fetch('../data/stats.json')
 
 })
 .catch(err => console.error('Error loading stats.json:', err));
+</script>
+
 
