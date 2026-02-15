@@ -220,7 +220,7 @@ header {
     color:#eee;
 }
 .modem-table th, .modem-table td {
-    padding:12px 15px;
+    padding:11px 13px;
     border-bottom:1px solid rgba(0,255,255,0.2);
     text-align:center;
     text-shadow:0 0 3px rgba(0,255,255,0.3);
