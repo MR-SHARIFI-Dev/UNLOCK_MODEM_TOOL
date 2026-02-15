@@ -1,4 +1,3 @@
-// Neon "Unlock" animation
 document.addEventListener('DOMContentLoaded', () => {
     const logoText = document.querySelector('.unlock-text');
     let i=0;
