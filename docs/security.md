@@ -1,13 +1,13 @@
-# Security & Privacy / امنیت و حریم خصوصی
+# Security Policy
 
----
+## Supported use
 
-## 🇬🇧 Security
-- 🛡 Digitally signed executable  
-- ⚡ No firmware flashing required  
-- 🔒 No personal data collection  
+This project is intended for devices the user owns or is authorized to service.
 
-## 🇮🇷 امنیت
-- 🛡 دارای امضای دیجیتال  
-- ⚡ بدون نیاز به فلش  
-- 🔒 بدون ذخیره اطلاعات شخصی
+## Reporting issues
+
+Please report security concerns privately through Telegram:
+
+https://t.me/UNLOCK_MODEM_TOOL
+
+Do not publish sensitive device data, license keys, or private server URLs in public issues.

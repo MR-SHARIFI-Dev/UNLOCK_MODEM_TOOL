@@ -1,15 +1,12 @@
-# Contributing / مشارکت
+# Contributing
 
----
+This repository is mainly used as a public presentation and release page.
 
-## 🇬🇧 How to contribute
-1. Fork repository  
-2. Create a new branch  
-3. Commit changes  
-4. Submit Pull Request
+You can help by:
 
-## 🇮🇷 نحوه مشارکت
-1. فورک کنید  
-2. شاخه جدید بسازید  
-3. تغییرات را ذخیره کنید  
-4. Pull Request ارسال کنید
+- Reporting UI issues
+- Requesting device compatibility review
+- Suggesting documentation improvements
+- Reporting broken links
+
+For direct support, use Telegram: https://t.me/UNLOCK_MODEM_TOOL

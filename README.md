@@ -1,128 +1,156 @@
-# 🔓 Universal Modem Unlocker
-### e.g., “Professional LTE Modem Unlocking Tool”
-
 <div align="center">
-<img src="images/logo.png" width="340" alt="Universal Modem Unlocker Logo"/>
-</div>
 
-![Platform](https://img.shields.io/badge/Platform-Windows%207%2F8%2F10%2F11-blue)
-![Architecture](https://img.shields.io/badge/x86%20%7C%20x64-Supported-lightgrey)
-![Release](https://img.shields.io/github/v/release/MR-SHARIFI-Dev/UNLOCK_MODEM_TOOL)
-![Downloads](https://img.shields.io/github/downloads/MR-SHARIFI-Dev/UNLOCK_MODEM_TOOL/total)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Code Signing](https://img.shields.io/badge/Code%20Signing-Digitally%20Signed-brightgreen)
+<img src="images/logo.png" width="150" alt="UNLOCK MODEM TOOL Logo"/>
 
----
+# 🔓 UNLOCK MODEM TOOL
 
-# 🇬🇧 English
+### Professional LTE Modem Service & License Platform
 
-## Overview
-Universal Modem Unlocker is a professional Windows executable tool designed to remove carrier locks from supported LTE modems.
+<p>
+  <b>Windows desktop app</b> · <b>License-based access</b> · <b>Supported modem families</b> · <b>Telegram support</b>
+</p>
 
----
+<p>
+  <a href="https://t.me/UNLOCK_MODEM_TOOL">
+    <img alt="Telegram" src="https://img.shields.io/badge/Telegram-Join%20Channel-26A5E4?style=for-the-badge&logo=telegram&logoColor=white">
+  </a>
+  <img alt="Platform" src="https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-00D4FF?style=for-the-badge&logo=windows&logoColor=white">
+  <img alt="Release" src="https://img.shields.io/badge/Release-Coming%20Soon-f8c76a?style=for-the-badge">
+  <img alt="License" src="https://img.shields.io/badge/License-MIT-34d399?style=for-the-badge">
+</p>
 
-## 📸 Screenshots
+<img src="images/banner.png" width="100%" alt="UNLOCK MODEM TOOL Banner"/>
 
-<div align="center">
-<img src="images/screenshot1.png" width="400" style="margin:20px" alt="Screenshot 1"/>
-<img src="images/screenshot2.png" width="400" style="margin:20px" alt="Screenshot 2"/>
 </div>
 
 ---
 
-## Download
-Visit the Releases section to download the latest version.
+## 🚀 What is this project?
 
-## Global Unlock Statistics
-| Metric | Value |
-|--------|--------|
-| 🌍 Total Unlocks | 112 |
-| ✅ Success Rate | 99.8 |
+**UNLOCK MODEM TOOL** is a professional Windows-based modem service platform built for supported LTE/4G modem families.  
+The project is designed around a clean desktop UI, license-controlled access, update checks, support flow, and a public landing page for users.
 
-More details: `/docs/statistics.md`
-
-## Documentation
-Full documentation available in `/docs`
-
-## Commercial Model
-| Version | Access |
-|----------|---------|
-| 🟢 Community | Basic Models |
-| 🔵 Pro | Extended Support |
-| 🔴 Enterprise | Bulk Unlock |
-
-## Security
-Digitally signed executable.
-
-## License
-MIT License
-
-Copyright (c) [2026] [Mahdi sharifi]
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
+> This repository is currently used as the **public presentation and release page**.  
+> The final application package will be published through GitHub Releases when ready.
 
 ---
 
-# 🇮🇷 فارسی
+## 🇮🇷 معرفی فارسی
 
-## معرفی
-Universal Modem Unlocker یک ابزار حرفه‌ای ویندوزی برای حذف قفل اپراتوری مودم‌های LTE است.
-
----
-
-## 📸 تصاویر
+**UNLOCK MODEM TOOL** یک ابزار حرفه‌ای ویندوزی برای مدیریت عملیات سرویس و آنلاک مودم‌های پشتیبانی‌شده است.  
+هدف این صفحه این است که کاربران بدانند پروژه چیست، چه دستگاه‌هایی پشتیبانی می‌شوند، نسخه نهایی از کجا منتشر می‌شود و برای پشتیبانی وارد تلگرام شوند.
 
 <div align="center">
-<img src="images/screenshot1.png" width="400" style="margin:20px" alt="Screenshot 1"/>
-<img src="images/screenshot2.png" width="400" style="margin:20px" alt="Screenshot 2"/>
-  
+
+### 📢 برای اخبار، آموزش، پشتیبانی و اعلام نسخه جدید وارد تلگرام شوید
+
+<a href="https://t.me/UNLOCK_MODEM_TOOL">
+  <img alt="Join Telegram" src="https://img.shields.io/badge/Join%20Telegram-%40UNLOCK_MODEM_TOOL-26A5E4?style=for-the-badge&logo=telegram&logoColor=white">
+</a>
+
 </div>
 
 ---
-## دانلود
-برای دریافت نسخه جدید به بخش Releases مراجعه کنید.
 
-## آمار آنلاک
-| شاخص | مقدار |
-|--------|--------|
-| 🌍 مجموع آنلاک | 112 |
-| ✅ نرخ موفقیت | 99.8 |
+## ✨ Highlights
 
-جزئیات کامل: `/docs/statistics.md`
+| Feature | Status |
+|---|---|
+| Modern Windows desktop interface | ✅ Ready |
+| License-based access control | ✅ Ready |
+| Update / version check system | ✅ Ready |
+| Supported modem family menu | ✅ Ready |
+| Telegram support flow | ✅ Ready |
+| Public GitHub landing page | ✅ Ready |
+| Final public release package | 🔜 Coming soon |
 
-## مدل تجاری
-| نسخه | دسترسی |
-|--------|---------|
-| 🟢 Community | مدل‌های پایه |
-| 🔵 Pro | پشتیبانی گسترده |
-| 🔴 Enterprise | آنلاک انبوه |
+---
 
-## امنیت
-تمام نسخه‌های رسمی دارای امضای دیجیتال هستند.
+## 🧩 Supported modem families
 
-## لایسنس
+Current public compatibility list is focused on these families:
 
-حق نشر (c) [2026] [مهدی شریفی]
+- **ZLT Series**: X10, X11, X20, X21, X25, X28, X28 Pro
+- **Irancell / LTE CPE models**
+- **Huawei LTE CPE models**
+- **ZTE LTE / MiFi models**
+- **OpenWRT-related service tools**
+- More models will be announced through Telegram.
 
-بدینوسیله به هر شخصی که یک نسخه از این نرم‌افزار و فایل‌های مستندات مرتبط ("نرم‌افزار") را دریافت می‌کند، اجازه داده می‌شود که بدون محدودیت، از جمله بدون محدودیت، با نرم‌افزار معامله کند، از جمله حق استفاده، کپی، اصلاح، ادغام، انتشار، توزیع، اعطای مجوز فرعی و/یا فروش نسخه‌های نرم‌افزار، و به افرادی که نرم‌افزار به آنها ارائه شده است، اجازه دهد این کار را انجام دهند، مشروط به شرایط زیر:
+> Compatibility can vary by firmware, region, and device condition. Always check the latest announcement before using the tool.
 
-اطلاعیه حق نشر فوق و این اطلاعیه اجازه در تمام نسخه‌ها یا بخش‌های قابل توجهی از نرم‌افزار گنجانده خواهد شد.
+---
 
-نرم‌افزار "به همان شکلی که هست" ارائه می‌شود، بدون هیچ گونه ضمانتی، صریح یا ضمنی، از جمله اما نه محدود به ضمانت‌های قابلیت فروش، مناسب بودن برای یک هدف خاص و عدم نقض حقوق مالکیت معنوی. تحت هیچ شرایطی، نویسندگان یا دارندگان حق نشر، مسئولیتی در قبال هرگونه ادعا، خسارت یا سایر مسئولیت‌ها، چه در قالب قرارداد، جرم یا موارد دیگر، که ناشی از، خارج از یا در ارتباط با نرم‌افزار یا استفاده یا سایر معاملات در نرم‌افزار باشد، نخواهند داشت.
+## 📸 Preview
+
+<div align="center">
+
+<img src="images/screenshot1.png" width="45%" alt="Screenshot 1"/>
+&nbsp;
+<img src="images/screenshot2.png" width="45%" alt="Screenshot 2"/>
+
+</div>
+
+---
+
+## 📦 Download
+
+The public download is not attached yet.
+
+When the first stable package is ready, it will be available from:
+
+- **GitHub Releases**
+- Official Telegram announcements
+- Project landing page
+
+<div align="center">
+
+<a href="https://t.me/UNLOCK_MODEM_TOOL">
+  <img alt="Get release news" src="https://img.shields.io/badge/Get%20Release%20News-Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white">
+</a>
+
+</div>
+
+---
+
+## 🛡️ Responsible use
+
+This tool is intended for supported devices that you own or are authorized to service.  
+Users are responsible for following local laws, operator agreements, device warranty conditions, and firmware safety requirements.
+
+This repository does not provide bypass instructions, illegal service instructions, or unauthorized access guidance.
+
+---
+
+## 🌐 GitHub Pages
+
+This repository includes a professional landing page in:
+
+```text
+docs/index.html
+```
+
+To enable it:
+
+1. Open repository **Settings**
+2. Go to **Pages**
+3. Select branch: `main`
+4. Select folder: `/docs`
+5. Save
+
+---
+
+## 📞 Contact
+
+- Telegram: [@UNLOCK_MODEM_TOOL](https://t.me/UNLOCK_MODEM_TOOL)
+- Updates: GitHub Releases + Telegram
+- Support: Telegram channel/group
+
+---
+
+<div align="center">
+
+**UNLOCK MODEM TOOL**  
+Professional modem service platform · Built for a cleaner release experience
+
+</div>

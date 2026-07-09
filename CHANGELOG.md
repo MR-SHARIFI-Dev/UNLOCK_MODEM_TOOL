@@ -1,26 +1,14 @@
-# Changelog / تغییرات نسخه‌ها
+# Changelog
 
----
+## v1.1.0 — Public Preview
 
-## [0.1.0] - 2026-02-15
+- New public GitHub presentation template.
+- Improved GitHub Pages landing page.
+- Added Telegram-first release flow.
+- Prepared repository for future application releases.
 
-### 🇬🇧 Added
-- Initial unlock engine
-- Huawei support
-- ZLT ALL support
-- Portable EXE build
+## Upcoming
 
-### 🇮🇷 اضافه شده
-- هسته اولیه آنلاک
-- پشتیبانی هواوی
-- پشتیبانی کامل از زد ال تی
-- نسخه اجرایی مستقل
-## [0.1.2] - 2026-00-0
-soon..
-## [0.1.3] - 2026-00-0
-soon..
-## [0.1.4] - 2026-00-0
-soon..
-## [0.1.5] - 2026-00-0
-soon..
-## [0.1.6] - 2026-00-0
+- First stable Windows package.
+- Final compatibility list.
+- Release notes and checksums.

@@ -1,29 +1,13 @@
-# Device Compatibility / سازگاری دستگاه‌ها
+# Compatibility
 
----
+Current public compatibility families:
 
-## 🇬🇧 Huawei
-| Model | Status | Success |
-|--------|--------|---------|
-| E5577 | 🟢 Supported | 100% |
-| B612 | 🟢 Supported | 100% |
+| Family | Status |
+|---|---|
+| ZLT X-Series | Active / Testing |
+| Irancell LTE CPE | Active / Testing |
+| Huawei LTE CPE | Testing |
+| ZTE LTE / MiFi | Testing |
+| OpenWRT tools | Partial |
 
-## 🇮🇷 هواوی
-| مدل | وضعیت | نرخ موفقیت |
-|--------|--------|-------------|
-| E5577 | 🟢 پشتیبانی شده | 100% |
-| B612 | 🟢 پشتیبانی شده | 100% |
-
----
-
-## 🇬🇧 Irancell
-| Model | Status | Success |
-|--------|--------|---------|
-| TF-i60 | 🟡 Beta | 85% |
-| FD-i40 | ⚠ Partial | Testing |
-
-## 🇮🇷 ایرانسل
-| مدل | وضعیت | نرخ موفقیت |
-|--------|--------|-------------|
-| TF-i60 | 🟡 نسخه آزمایشی | 85% |
-| FD-i40 | ⚠ ناقص | در حال تست |
+Compatibility depends on model, firmware, and region.

@@ -1,9 +1,13 @@
-# Security Policy / سیاست امنیتی
+# Security Policy
 
----
+## Supported use
 
-## 🇬🇧 Reporting
-If you discover a security vulnerability, please report it privately via telegram: @hirophp
+This project is intended for devices the user owns or is authorized to service.
 
-## 🇮🇷 گزارش آسیب‌پذیری
-در صورت مشاهده مشکل امنیتی، به صورت خصوصی در تلگرام اطلاع دهید: @hirophp
+## Reporting issues
+
+Please report security concerns privately through Telegram:
+
+https://t.me/UNLOCK_MODEM_TOOL
+
+Do not publish sensitive device data, license keys, or private server URLs in public issues.

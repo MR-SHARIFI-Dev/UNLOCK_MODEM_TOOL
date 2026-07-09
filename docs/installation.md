@@ -1,17 +1,13 @@
-# Installation Guide / راهنمای نصب
+# Installation
 
----
+The public installer is not published yet.
 
-## 🇬🇧 Steps
-1. ⬇ Download latest release  
-2. 📂 Extract ZIP  
-3. 🖥 Run as Administrator  
-4. 🔌 Connecting the modem with a LAN cable
+When ready:
 
----
+1. Open the latest GitHub Release.
+2. Download the Windows package.
+3. Check release notes and checksum.
+4. Run the application.
+5. Follow official Telegram updates.
 
-## 🇮🇷 مراحل
-1. ⬇ دانلود آخرین نسخه  
-2. 📂 استخراج فایل  
-3. 🖥 اجرای برنامه با دسترسی Administrator  
-4. 🔌 اتصال مودم با کابل لن
+Telegram: https://t.me/UNLOCK_MODEM_TOOL
