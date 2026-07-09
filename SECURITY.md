@@ -1,13 +1,5 @@
-# Security Policy
+# Security
 
-## Supported use
+Use this project only for supported devices that you own or are authorized to service.
 
-This project is intended for devices the user owns or is authorized to service.
-
-## Reporting issues
-
-Please report security concerns privately through Telegram:
-
-https://t.me/UNLOCK_MODEM_TOOL
-
-Do not publish sensitive device data, license keys, or private server URLs in public issues.
+Support: https://t.me/UNLOCK_MODEM_TOOL
