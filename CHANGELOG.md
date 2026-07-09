@@ -2,6 +2,8 @@
 
 ## Public Preview
 
-- Clean public repository presentation.
-- Professional landing page.
-- Telegram-first announcement flow.
+- New NOVA Unlocker public repository design.
+- Multi-language public README.
+- Professional GitHub landing page.
+- Updated promotional images.
+- Telegram-first release communication.

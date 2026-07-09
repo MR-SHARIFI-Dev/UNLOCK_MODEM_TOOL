@@ -1,5 +1,7 @@
-# Security
+# Security & Responsible Use
 
-Use this project only for supported devices that you own or are authorized to service.
+NOVA Unlocker is intended for supported devices that the user owns or is authorized to service.
+
+Do not publish private identifiers, license keys, IMEI values, account details, server URLs, or sensitive information in public issues.
 
 Support: https://t.me/UNLOCK_MODEM_TOOL
